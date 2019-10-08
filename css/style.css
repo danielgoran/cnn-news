@@ -250,7 +250,7 @@ label:hover {
 	position: absolute;
 	top: 50px;
 	right: 0;
-	display: block;
+	display: none;
 }
 
 #expanded-switcher:checked~.header-expanded-menu-block {
@@ -338,9 +338,13 @@ label:hover {
 }
 
 
+/* =====================*/
+/* ===== Footer =====*/
+/* =====================*/
 
-
-
+.page-footer {
+	background: #0c0c0c;
+}
 
 
 
