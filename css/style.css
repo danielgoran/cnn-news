@@ -442,6 +442,12 @@ article {
 	line-height: 1.2;
 }
 
+.small-size {
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 1.2;
+}
+
 .full-width-heading {
 	font-size: 30px;
 	font-weight: 300;
