@@ -492,6 +492,8 @@ article {
 
 .dark-section {
 	background: #1a1a1a;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .dark-section .section-heading:after {
@@ -518,7 +520,6 @@ article {
 .page-footer {
 	background: #0c0c0c;
 	color: #fff;
-	margin-top: 250px;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
