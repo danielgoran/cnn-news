@@ -490,8 +490,28 @@ article {
 	margin-left: 5px;
 }
 
+.dark-section {
+	background: #1a1a1a;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
 
+.dark-section .section-heading:after {
+	border-color: #c00;
+}
 
+.dark-section .image-label {
+	background: #fff;
+	color: #c00;
+}
+
+.dark-section .with-opacity {
+	background: rgba(38, 38, 38, 0.85);
+}
+
+.dark-section h3 {
+	color: #fff;
+}
 
 /* =====================*/
 /* ===== Footer =====*/
@@ -500,7 +520,6 @@ article {
 .page-footer {
 	background: #0c0c0c;
 	color: #fff;
-	margin-top: 250px;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
