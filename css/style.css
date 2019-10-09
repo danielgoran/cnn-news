@@ -490,8 +490,26 @@ article {
 	margin-left: 5px;
 }
 
+.dark-section {
+	background: #1a1a1a;
+}
 
+.dark-section .section-heading:after {
+	border-color: #c00;
+}
 
+.dark-section .image-label {
+	background: #fff;
+	color: #c00;
+}
+
+.dark-section .with-opacity {
+	background: rgba(38, 38, 38, 0.85);
+}
+
+.dark-section h3 {
+	color: #fff;
+}
 
 /* =====================*/
 /* ===== Footer =====*/
