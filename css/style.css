@@ -472,7 +472,25 @@ article {
 
 .section-heading {
 	color: #262626;
+	font-size: 24px;
+	font-weight: 300;
+	display: flex;
+	align-items: center;
+	white-space: nowrap;
+	margin-bottom: 15px;
 }
+
+.section-heading:after {
+	content: '.';
+	font-size: 0;
+	height: 9px;
+	border-top: 4px solid #d9d9d9;
+	border-bottom: 4px solid #d9d9d9;
+	width: 100%;
+	margin-left: 5px;
+}
+
+
 
 
 /* =====================*/
